@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9ecef;
+}
+
+#mainImage{
+    width: 100%;
+    height: 70vh;
+}
+
+
+.card-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 2px white;
+    outline: none;
+    border: none;
+}
+
+.cardImage{
+    width: 5rem;
+    height: 5rem;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.main-left-side{
+    flex-direction: column;
+    width: 46rem
+    /* 28.7rem;*/
+}
+
+.HorizentialCard{
+    display: flex;
+    margin-bottom: 1.5rem;
+    background-color: white;
+}
+
+.HorizentialCard img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-card{
+    justify-self: end;
+}
+
+.plus{
+    position: relative;
+    background-color: orange;
+    color: white;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 110%;
+    left: 23rem;
+    top: 1.8rem;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+.pagination>span{
+    color: orange;
+    background-color: white;
+    width: 2.2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+
+.main-right-side{
+    /*width: 13.5rem;*/
+    width: 22.3rem;
+
+}
+
+.rightHorizentialCard{
+    display: flex;
+    font-size: .5rem;
+    height: 4rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.right-card{
+    padding: 1rem;
+}
+
+.rightHorizentialCard img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.social-icons{
+    font-size: 2.5rem;
+    line-height: 110%;
+}
+
+.text-uppercase{
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .main-right-side , .main-left-side{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .plus{
+        top: 4.9rem;
+        left: 30rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .plus{
+        top: 1.8rem;
+        left: 22rem;
+    }
+    .title{
+        left: 20%!important;
+    }
+}
+
+@media (max-width: 575px) {
+    .plus{
+        top: 1.8rem;
+        left: 8rem;
+    }
+    .title{
+        left: 0%!important;
+    }
+}
