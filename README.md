@@ -5,4 +5,4 @@ just run the project on a localhost
 
 
 
-[Landin_Page](http://pouya-shekari.gigfa.com/sample-landin-page-1)
+[Landing_Page](http://pouya-shekari.gigfa.com/sample-landing-page-1/)
